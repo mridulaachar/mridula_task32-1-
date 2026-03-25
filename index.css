@@ -1,0 +1,31 @@
+.board {
+  display: grid;
+  grid-template-columns: repeat(8, 60px);
+  margin: 50px auto;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.white {
+  background: #f0d9b5;
+}
+
+.black {
+  background: #b58863;
+}
+
+span.white {
+  color: white;
+}
+
+span.black {
+  color: black;
+}
